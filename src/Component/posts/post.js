@@ -2,10 +2,10 @@ import React from 'react'
 
 function Post() {
     return (
-        <div className="col s12 m6">
+        <div className="col s12 m12">
           <div className="card">
             <div className="card-image">
-              <img alt="Sample image" src="images/sample-1.jpg"/>
+              <img alt="Sample" src="images/sample-1.jpg"/>
               <span className="card-title">Card Title</span>
             </div>
             <div className="card-content">
@@ -13,7 +13,7 @@ function Post() {
               I am convenient because I require little markup to use effectively.</p>
             </div>
             <div className="card-action">
-              <a href="#">This is a link</a>
+              <a href="/">This is a link</a>
             </div>
           </div>
         </div>

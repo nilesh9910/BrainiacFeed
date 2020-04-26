@@ -2,7 +2,7 @@ import React from 'react'
 
 function Search() {
     return (
-        <div className="nav-wrapper">
+        <div className="nav-wrapper container">
       <form>
         <div className="input-field">
           <input id="search" type="search" required/>

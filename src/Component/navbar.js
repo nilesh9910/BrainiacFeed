@@ -16,17 +16,18 @@ class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="nav-extended">
+                <nav className="nav-extended teal darken-1">
                     <div className="nav-wrapper container">
                     <a href="/" className="brand-logo">BraniacFeed</a>
                     <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li>
-                            <Search />
+                            
                         </li>
                         {this.state.navlinks.map( ({id, linkurl, Name}) => <li key={id}><a href={linkurl}>{Name}</a></li> )}
                     </ul>
                     </div>
+                    <Search />
                 </nav>
 
                 <ul className="sidenav" id="mobile-demo">
